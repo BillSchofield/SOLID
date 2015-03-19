@@ -1,16 +1,18 @@
 package com.thoughtworks.solid.liskov;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
 
 public class Main {
     public static void main(String[] args) {
-        List<Animal> animals = new ArrayList<Animal>();
-        animals.add(new Cat());
-        animals.add(new Dog(animals));
+        Collection<Worker> workers = new ArrayList<Worker>();
+        workers.add(new HumanWorker());
+        workers.add(new RobotWorker());
 
-        for (Animal animal : animals) {
-            System.out.println(animal.speak());
+
+        for (Worker worker : workers) {
+            worker.eat(new Food());
+            worker.work();
         }
     }
 }
