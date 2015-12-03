@@ -1,4 +1,4 @@
-package com.thoughtworks.solid.dependencyinversion;
+package com.thoughtworks.solid.dependencyinversionexample.dependencyinversion;
 
 import java.io.*;
 import java.util.List;

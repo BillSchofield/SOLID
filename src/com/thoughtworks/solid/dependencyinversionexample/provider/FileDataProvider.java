@@ -1,6 +1,6 @@
-package com.thoughtworks.solid.dependencyinversion.provider;
+package com.thoughtworks.solid.dependencyinversionexample.provider;
 
-import com.thoughtworks.solid.dependencyinversion.DataProvider;
+import com.thoughtworks.solid.dependencyinversionexample.dependencyinversion.DataProvider;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class FileDataProvider implements DataProvider {
 
     @Override
     public List<String> provide() {
-        List<String> lines = new ArrayList<String>();
+        List<String> lines = new ArrayList<>();
         Reader fileReader;
         try {
             fileReader = new FileReader(inputFileName);

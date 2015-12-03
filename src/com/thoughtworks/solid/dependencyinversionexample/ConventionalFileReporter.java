@@ -1,7 +1,9 @@
-package com.thoughtworks.solid.dependencyinversion;
+package com.thoughtworks.solid.dependencyinversionexample;
 
-import com.thoughtworks.solid.dependencyinversion.consumers.FileDataConsumer;
-import com.thoughtworks.solid.dependencyinversion.provider.FileDataProvider;
+import com.thoughtworks.solid.dependencyinversionexample.consumers.FileDataConsumer;
+import com.thoughtworks.solid.dependencyinversionexample.dependencyinversion.DataConsumer;
+import com.thoughtworks.solid.dependencyinversionexample.dependencyinversion.DataProvider;
+import com.thoughtworks.solid.dependencyinversionexample.provider.FileDataProvider;
 
 import java.io.IOException;
 import java.util.List;

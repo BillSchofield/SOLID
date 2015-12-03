@@ -1,6 +1,6 @@
-package com.thoughtworks.solid.dependencyinversion.consumers;
+package com.thoughtworks.solid.dependencyinversionexample.consumers;
 
-import com.thoughtworks.solid.dependencyinversion.DataConsumer;
+import com.thoughtworks.solid.dependencyinversionexample.dependencyinversion.DataConsumer;
 
 import java.io.FileWriter;
 import java.io.IOException;
