@@ -15,11 +15,11 @@ public class Main {
         fileReporter.report();
 
 
-//        EveryOtherLineReader reader = new EveryOtherLineReader(lineReader);
-//
-//        FilePrinter filePrinter = new FilePrinter("output.txt");
-//        FileReporter everyOtherLineFileReporter = new FileReporter(reader, filePrinter);
-//        everyOtherLineFileReporter.report();
+        EveryOtherLineReader reader = new EveryOtherLineReader(lineReader);
+
+        filePrinter = new FilePrinter("output.txt");
+        FileReporter everyOtherLineFileReporter = new FileReporter(reader, filePrinter);
+        everyOtherLineFileReporter.report();
 
 
     }

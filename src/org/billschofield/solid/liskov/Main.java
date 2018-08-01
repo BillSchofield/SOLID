@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Collection<Worker> workers = new ArrayList<>();
         workers.add(new HumanWorker());
+        workers.add(new RobotWorker());
 
         for (Worker worker : workers) {
             worker.eat(new Food());
@@ -19,5 +20,4 @@ public class Main {
 }
 
 
-//        workers.add(new RobotWorker());
 
