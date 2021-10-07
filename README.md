@@ -8,12 +8,12 @@
 |**D**  | DIP               |**Dependency inversion principle:** one should “Depend upon Abstractions. Do not depend upon concretions.” Dependency injection is one method of following this principle.|
 
 
-#Single responsibility principle
+# Single responsibility principle
 
-#Open/closed principle
+# Open/closed principle
 
-#Liskov substitution principle
+# Liskov substitution principle
 
-#Interface segregation principle
+# Interface segregation principle
 
-#Dependency inversion principle
+# Dependency inversion principle
